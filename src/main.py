@@ -12,10 +12,10 @@ from numba import njit
 from scipy import integrate
 
 # Количество лучей
-AMOUNT_RAYS = 2_000
+AMOUNT_RAYS = 1_000
 
 # количество точек на регистраторе
-AMOUNT_POINTS = 800
+AMOUNT_POINTS = 100
 
 # Радиус пучка
 BEAM_RADIUS = 3
